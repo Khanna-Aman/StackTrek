@@ -25,7 +25,7 @@ This literature review examines the intersection of educational technology, data
 #### Dual Coding Theory
 **Paivio (1986)** showed that information processed through both visual and verbal channels enhances learning retention, supporting the multimodal approach of data structure visualization.
 
-### 🔬 Educational Technology in Computer Science
+###  Educational Technology in Computer Science
 
 #### Interactive Visualization Effectiveness
 
