@@ -2,7 +2,7 @@
 
 **A modern web application designed to make learning data structures engaging through interactive visualizations and gamification.**
 
-🌐 **[Live Demo](https://funny-salamander-639d5b.netlify.app)** | 📚 **[Documentation](docs/)** | 🚀 **[Quick Deploy Guide](docs/DEPLOYMENT_GUIDE.md)**
+ **[Live Demo](https://stack-trek.netlify.app)** |  **[Documentation](docs/)** |  **[Quick Deploy Guide](docs/DEPLOYMENT_GUIDE.md)**
 
 **Portfolio Project**: This platform demonstrates proficiency in modern web technologies, educational software design, and accessibility implementation. Built as a comprehensive project for Master's program applications, showcasing technical skills in React, TypeScript, D3.js, and educational technology development.
 
