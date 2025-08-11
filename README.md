@@ -83,13 +83,14 @@
 - [**Project Overview**](PROJECT_OVERVIEW.md) - Complete project documentation and objectives
 - [**Testing Strategy**](TESTING_STRATEGY.md) - Comprehensive testing framework and quality assurance
 
-### Implementation Documentation
-- [**Portfolio Summary**](PORTFOLIO_SUMMARY.md) - Complete project overview for Master's applications
-- [**Features Implemented**](FEATURES_IMPLEMENTED.md) - Comprehensive list of all working features
-- [**Implementation Status**](IMPLEMENTATION_STATUS.md) - Current development progress and feature completion
-- [**D3.js Enhanced Features**](D3_ENHANCED_FEATURES.md) - Advanced visualization implementation details
-- [**Deployment Guide**](DEPLOYMENT_GUIDE.md) - Free deployment options and live demo setup
-- [**Firebase Integration**](FIREBASE_ACADEMIC_SETUP.md) - Backend services configuration and data management
+### Documentation
+- [**Complete Feature List**](docs/FEATURES_IMPLEMENTED.md) - Comprehensive list of all working features
+- [**D3.js Visualizations**](docs/D3_ENHANCED_FEATURES.md) - Advanced visualization implementation details
+- [**Deployment Guide**](docs/DEPLOYMENT_GUIDE.md) - Free deployment options and live demo setup
+
+### Firebase Integration
+- [**Firebase Setup**](firebase/firebase-setup.md) - Quick setup guide for backend services
+- [**Detailed Firebase Guide**](firebase/FIREBASE_ACADEMIC_SETUP.md) - Complete backend configuration
 
 ## Technical Architecture
 
