@@ -2,9 +2,7 @@
 
 **A modern web application designed to make learning data structures engaging through interactive visualizations and gamification.**
 
-[![Build Status](https://github.com/Khanna-Aman/StackTrek/workflows/CI/badge.svg)](https://github.com/Khanna-Aman/StackTrek/actions)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Live Demo](https://img.shields.io/badge/demo-deploy%20ready-brightgreen)](https://github.com/Khanna-Aman/StackTrek)
+🌐 **[Live Demo](https://funny-salamander-639d5b.netlify.app)** | 📚 **[Documentation](docs/)** | 🚀 **[Quick Deploy Guide](docs/DEPLOYMENT_GUIDE.md)**
 
 **Portfolio Project**: This platform demonstrates proficiency in modern web technologies, educational software design, and accessibility implementation. Built as a comprehensive project for Master's program applications, showcasing technical skills in React, TypeScript, D3.js, and educational technology development.
 
@@ -75,13 +73,23 @@
 - **Reduced Motion Support**: Respects user preferences for reduced motion and animations
 - **Responsive Design**: Optimized for screen readers and assistive technologies
 
-## Technical Documentation
+## 🚀 Live Demo & Deployment
 
-### Project Documentation
-- [**Literature Review**](LITERATURE_REVIEW.md) - Analysis of educational technology research and best practices
-- [**Methodology**](METHODOLOGY.md) - Development approach and technical decision-making process
-- [**Project Overview**](PROJECT_OVERVIEW.md) - Complete project documentation and objectives
-- [**Testing Strategy**](TESTING_STRATEGY.md) - Comprehensive testing framework and quality assurance
+**Live Application**: [https://funny-salamander-639d5b.netlify.app](https://funny-salamander-639d5b.netlify.app)
+
+**Deployment Platform**: Netlify (Free tier with automatic deployments)
+- **Build Time**: ~2-3 minutes
+- **Global CDN**: Fast loading worldwide
+- **HTTPS**: Automatic SSL certificate
+- **Custom Domain**: Optional upgrade available
+
+**Deploy Your Own Copy:**
+1. Fork this repository
+2. Connect to Netlify via GitHub
+3. Automatic deployment on every push
+4. See [Deployment Guide](docs/DEPLOYMENT_GUIDE.md) for detailed instructions
+
+## Technical Documentation
 
 ### Documentation
 - [**Complete Feature List**](docs/FEATURES_IMPLEMENTED.md) - Comprehensive list of all working features
@@ -124,22 +132,26 @@
 - **Firebase**: Scalable backend for user management and learning analytics
 - **Vite**: Fast development and optimized production builds
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 ### Frontend Technologies
 - **React 18+** with TypeScript for type-safe component development
 - **Vite** for fast development builds and optimized production bundles
-- **Redux Toolkit** for predictable state management
-- **React Router v6** for client-side routing
+- **D3.js** for interactive data visualizations
 - **Styled Components** for component-scoped styling
 - **Framer Motion** for smooth animations and transitions
-- **D3.js** for interactive data visualizations
+- **Redux Toolkit** for predictable state management
+
+### Deployment & Infrastructure
+- **Netlify** for hosting and continuous deployment
+- **GitHub** for version control and collaboration
+- **Firebase** for backend services (optional)
+- **Vite** for optimized production builds
 
 ### Development and Quality Tools
 - **ESLint** and **Prettier** for consistent code formatting and quality
 - **Jest** and **React Testing Library** for comprehensive testing
 - **Storybook** for isolated component development and documentation
-- **Husky** for automated pre-commit code quality checks
 
 ## Installation and Setup
 
@@ -179,17 +191,17 @@ npm run build
 npm run preview  # Test production build locally
 ```
 
-## Available Scripts
+## 📋 Available Scripts
 
-- `npm run dev` - Start development server with hot reload
-- `npm run build` - Build optimized production bundle
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run ESLint code analysis
-- `npm run lint:fix` - Automatically fix ESLint issues
-- `npm test` - Run test suite
-- `npm run test:watch` - Run tests in watch mode for development
-- `npm run test:coverage` - Generate test coverage reports
-- `npm run storybook` - Start Storybook component documentation
+**Development:**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Test production build locally
+
+**Code Quality:**
+- `npm run lint` - Check code quality
+- `npm run test` - Run test suite
+- `npm run storybook` - Component documentation
 
 ## Project Structure
 
@@ -269,8 +281,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Current Status**: Core Features Complete - Production Ready
-**Next Development Phase**: Advanced Gamification and User Analytics
+**🎯 Current Status**: Production Ready - Deployed on Netlify
+**🔗 Live Demo**: [StackTrek Platform](https://funny-salamander-639d5b.netlify.app)
+**📈 Next Phase**: Advanced gamification features and user analytics
+
+**Perfect for Master's Program Applications** - Demonstrates modern web development skills, educational technology expertise, and accessibility compliance.
 
 ## Live Demo Features
 
