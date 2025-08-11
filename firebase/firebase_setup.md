@@ -1,4 +1,4 @@
-# Firebase Academic Setup Guide
+# Firebase Setup Guide
 
 ## Overview
 
