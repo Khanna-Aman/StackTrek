@@ -3,23 +3,16 @@ import { getAuth, GoogleAuthProvider, GithubAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
-// Check if Firebase is configured
-const isFirebaseConfigured = !!(
-  import.meta.env.VITE_FIREBASE_API_KEY &&
-  import.meta.env.VITE_FIREBASE_AUTH_DOMAIN &&
-  import.meta.env.VITE_FIREBASE_PROJECT_ID &&
-  import.meta.env.VITE_FIREBASE_API_KEY !== 'your-firebase-api-key' &&
-  import.meta.env.VITE_FIREBASE_AUTH_DOMAIN !== 'your-project.firebaseapp.com' &&
-  import.meta.env.VITE_FIREBASE_PROJECT_ID !== 'your-project-id'
-);
+// NUCLEAR: Hardcoded Firebase config for stacktrek-98df0
+const isFirebaseConfigured = true;
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyBhxn1zOtawpaIlYb7TLZFOQakqrm6mZlo",
+  authDomain: "stacktrek-98df0.firebaseapp.com",
+  projectId: "stacktrek-98df0",
+  storageBucket: "stacktrek-98df0.firebasestorage.app",
+  messagingSenderId: "1072910879130",
+  appId: "1:1072910879130:web:9af6b3212f3c33963c1223",
 };
 
 // Initialize Firebase only if configured
