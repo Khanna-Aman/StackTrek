@@ -1,10 +1,12 @@
 [build]
   publish = "dist"
-  command = "echo 'Firebase Project:' $VITE_FIREBASE_PROJECT_ID && npm ci && npx vite build"
+  command = "echo '=== NUCLEAR BUILD v3 ===' && rm -rf node_modules/.cache && rm -rf .vite && rm -rf dist && npm ci --force && cat src/config/firebase.ts | head -20 && npx vite build && echo '=== BUILD COMPLETE ===' && cat dist/assets/*.js | grep -o 'projectId:\"[^\"]*\"' | head -1"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_FLAGS = "--production=false"
+  # Force cache bust
+  CACHE_BUST = "v3-nuclear-20241128"
 
 [context.production.environment]
   VITE_FIREBASE_API_KEY = "AIzaSyBhxn1zOtawpaIlYb7TLZFOQakqrm6mZlo"
