@@ -50,7 +50,7 @@ if (isFirebaseConfigured) {
       allow_signup: 'true'
     });
 
-    console.log('✅ Firebase initialized successfully');
+    console.log('✅ Firebase initialized successfully - BUILD_ID: NUCLEAR_2024_FINAL');
   } catch (error) {
     console.error('❌ Firebase initialization failed:', error);
     console.error('Please check your Firebase configuration in .env file');
