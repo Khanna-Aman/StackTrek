@@ -5,7 +5,7 @@ const DEMO_USER: User = {
   id: 'demo-user-123',
   username: 'Demo User',
   email: 'demo@example.com',
-  avatar: null,
+  avatar: undefined,
   level: 3,
   xp: 250,
   totalXp: 250,
