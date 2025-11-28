@@ -1,10 +1,18 @@
 [build]
   publish = "dist"
-  command = "npm ci && npx vite build"
+  command = "echo 'Firebase Project:' $VITE_FIREBASE_PROJECT_ID && npm ci && npx vite build"
 
 [build.environment]
   NODE_VERSION = "18"
   NPM_FLAGS = "--production=false"
+
+[context.production.environment]
+  VITE_FIREBASE_API_KEY = "AIzaSyBhxn1zOtawpaIlYb7TLZFOQakqrm6mZlo"
+  VITE_FIREBASE_AUTH_DOMAIN = "stacktrek-98df0.firebaseapp.com"
+  VITE_FIREBASE_PROJECT_ID = "stacktrek-98df0"
+  VITE_FIREBASE_STORAGE_BUCKET = "stacktrek-98df0.firebasestorage.app"
+  VITE_FIREBASE_MESSAGING_SENDER_ID = "1072910879130"
+  VITE_FIREBASE_APP_ID = "1:1072910879130:web:9af6b3212f3c33963c1223"
 
 [[redirects]]
   from = "/*"
