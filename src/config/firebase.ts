@@ -3,7 +3,8 @@ import { getAuth, GoogleAuthProvider, GithubAuthProvider } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
-// NUCLEAR: Hardcoded Firebase config for stacktrek-98df0
+// NUCLEAR v4: Force new bundle hash - 20241128-2010
+const DEPLOY_VERSION = "v4-final-fix";
 const isFirebaseConfigured = true;
 
 const firebaseConfig = {
@@ -50,7 +51,7 @@ if (isFirebaseConfigured) {
       allow_signup: 'true'
     });
 
-    console.log('✅ Firebase initialized successfully - BUILD_ID: NUCLEAR_2024_FINAL');
+    console.log('✅ Firebase initialized successfully - VERSION:', DEPLOY_VERSION);
   } catch (error) {
     console.error('❌ Firebase initialization failed:', error);
     console.error('Please check your Firebase configuration in .env file');
